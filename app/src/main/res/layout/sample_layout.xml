@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_favorite"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titleTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Love"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/detailsTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details text"
+            android:textSize="15sp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
